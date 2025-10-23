@@ -3,7 +3,7 @@ layout: default
 title: Publications
 ---
 
-# Publications
+# Publications & Presentations
 {% raw %}
 1. **Kumaran Baskaran**, Eliza Ploskon, Roberto Tejero, Masashi Yokochi, Deborah Harrus, Yuhe Liang, Ezra Peisach, Irina Persikova, Theresa A. Ramelot, Monica Sekharan, James Tolchard, John D. Westbrook, Benjamin Bardiaux, Charles D. Schwieters, Ardan Patwardhan, Sameer Velankar, Stephen K. Burley, Genji Kurisu, Jeffrey C. Hoch, Gaetano T. Montelione, Geerten W. Vuister, Jasmine Y. Young (2024). *Restraint validation of biomolecular structures determined by NMR in the Protein Data Bank*. Structure. 0 1-14 DOI: [10.1016/j.str.2024.02.011](https://doi.org/10.1016/j.str.2024.02.011)
 1. The wwPDB Consortium (2023). *{EMDB—the Electron Microscopy Data Bank}*. Nucleic Acids Research. 52 (D1) D456-D465 DOI: [10.1093/nar/gkad1019](https://doi.org/10.1093/nar/gkad1019)

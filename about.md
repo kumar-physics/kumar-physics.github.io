@@ -13,12 +13,12 @@ title: About
  data scientist working at the 
  intersection of **structural biology** and **machine learning**
 
-## Reserach experience
+## Reserach Experience
 
-| 2020 - present | Lead Analyst |Biological Magnetic Resonance data Bank, UCONN Health, USA|
+| 2020 -  | Lead Analyst |Biological Magnetic Resonance data Bank, UCONN Health, USA|
 | 2015 - 2020  | Assistant Scientist |Biological Magnetic Resonance data Bank, UW Madison, USA|
-| 2013 - 2015 | Post Doctoral Fellow |Paul Scherrer Institute,Switzerland|
-| 2010 - 2013 | Post Doctoral Fellow |Juelich Research Center,Germany|
+| 2013 - 2015 | Post Doctoral Fellow |Paul Scherrer Institute, Switzerland|
+| 2010 - 2013 | Post Doctoral Fellow |Juelich Research Center, Germany|
 
 ## Education
 
