@@ -1,52 +1,82 @@
+/* === GLOBAL === */
 body {
-  font-family: "Segoe UI", Arial, sans-serif;
-  background-color: #fafafa;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  background: #f7f9fc;
   color: #222;
   margin: 0;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
+/* === CONTAINER === */
 .container {
   max-width: 900px;
   margin: auto;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
+/* === HEADER === */
 .site-header {
-  background: #002b5c;
-  color: white;
-  padding: 1rem 0;
+  background: linear-gradient(135deg, #002b5c, #0056a6);
+  color: #fff;
   text-align: center;
+  padding: 2rem 0 1rem 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 .site-title a {
-  color: white;
+  color: #fff;
   text-decoration: none;
+  font-size: 1.8em;
+  font-weight: 700;
 }
 
+.site-subtitle {
+  color: #d3e3f2;
+  margin-top: 0.3rem;
+  font-size: 1.05em;
+}
+
+/* === NAVIGATION === */
 .navbar {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 
 .navbar a {
   color: #fff;
   text-decoration: none;
-  margin: 0 12px;
+  margin: 0 15px;
   font-weight: 500;
+  transition: 0.2s;
 }
 
 .navbar a:hover {
   text-decoration: underline;
+  color: #ffde59;
 }
 
+/* === MAIN CONTENT === */
 main.content {
-  background: white;
+  background: #fff;
   margin-top: 2rem;
   padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
+h1, h2, h3 {
+  color: #002b5c;
+}
+
+a {
+  color: #0056a6;
+}
+
+a:hover {
+  color: #003d80;
+  text-decoration: underline;
+}
+
+/* === FOOTER === */
 .footer {
   background: #002b5c;
   color: white;
@@ -54,4 +84,76 @@ main.content {
   padding: 1rem;
   margin-top: 2rem;
   font-size: 0.9em;
+}
+
+.footer a {
+  color: #ffde59;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* === HERO IMAGE === */
+.hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 4px solid #0056a6;
+}
+
+.hero h1 {
+  font-size: 2.2em;
+  margin: 0.5rem 0;
+}
+
+.hero p {
+  font-size: 1.1em;
+  color: #444;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  .navbar a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: #f0f5fa;
+  padding: 1.2rem;
+  border-radius: 10px;
+  border: 1px solid #d7e2ef;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+/* Subtle fade-in animations */
+body, .hero, main.content, .navbar a {
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
 }

@@ -1,3 +1,9 @@
+<div class="hero">
+  <img src="{{ '/assets/profile.jpg' | relative_url }}" alt="Kumaran Baskaran profile photo">
+  <h1>Kumaran Baskaran, Ph.D.</h1>
+  <p>Lead Analyst · Structural Biology · Data Science · FAIR Data Advocate</p>
+</div>
+
 ---
 layout: default
 title: Home
