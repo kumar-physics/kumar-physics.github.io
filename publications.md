@@ -4,7 +4,7 @@ title: Publications
 ---
 
 # Publications
-
+{% raw %}
 1. **Kumaran Baskaran**, Eliza Ploskon, Roberto Tejero, Masashi Yokochi, Deborah Harrus, Yuhe Liang, Ezra Peisach, Irina Persikova, Theresa A. Ramelot, Monica Sekharan, James Tolchard, John D. Westbrook, Benjamin Bardiaux, Charles D. Schwieters, Ardan Patwardhan, Sameer Velankar, Stephen K. Burley, Genji Kurisu, Jeffrey C. Hoch, Gaetano T. Montelione, Geerten W. Vuister, Jasmine Y. Young (2024). *Restraint validation of biomolecular structures determined by NMR in the Protein Data Bank*. Structure. 0 1-14 DOI: [10.1016/j.str.2024.02.011](https://doi.org/10.1016/j.str.2024.02.011)
 1. The wwPDB Consortium (2023). *{EMDB—the Electron Microscopy Data Bank}*. Nucleic Acids Research. 52 (D1) D456-D465 DOI: [10.1093/nar/gkad1019](https://doi.org/10.1093/nar/gkad1019)
 1. Jeffrey C Hoch, **Kumaran Baskaran**, Harrison Burr, John Chin, Hamid R Eghbalnia, Toshimichi Fujiwara, Michael R Gryk, Takeshi Iwata, Chojiro Kojima, Genji Kurisu, Dmitri Maziuk, Yohei Miyanoiri, Jonathan R Wedell, Colin Wilburn, Hongyang Yao, Masashi Yokochi (2022). *{Biological Magnetic Resonance Data Bank}*. Nucleic Acids Research. DOI: [10.1093/nar/gkac1050](https://doi.org/10.1093/nar/gkac1050)
@@ -64,3 +64,4 @@ title: Publications
 1. **Kumaran Baskaran** (2002). *Preparation of $ZrSnTiO_{4}$ dielectric resonators*.
 1. **Kumaran Baskaran**, Gunnar Schr\"oeder *Time dependent position restraints: History-Feedback approach in molecular dynamics simulations*.
 1. **Kumaran Baskaran**, Gunnar Schr\"oeder *Energy absorption and lifetime of vibrational modes in headpiece domain of chicken villin*.
+{% endraw %}
