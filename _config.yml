@@ -1,7 +1,9 @@
 title: "Kumaran Baskaran"
 description: "Structural Biology | Data Science | FAIR Data"
 theme: jekyll-theme-cayman
-repository: kumaranbaskaran/kumaranbaskaran.github.io
+repository: kumar-physics/kumar-physics.github.io
+url: "https://kumar-physics.github.io"
+baseurl: ""      # leave empty if your repo name is kumar-physics.github.io
 markdown: kramdown
 plugins:
   - jekyll-feed
