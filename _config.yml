@@ -1,7 +1,8 @@
-title: Kumaran Baskaran
-description: Research | Data Science | FAIR Data
+title: "Kumaran Baskaran"
+description: "Structural Biology | Data Science | FAIR Data"
 theme: jekyll-theme-cayman
+repository: kumaranbaskaran/kumaranbaskaran.github.io
+markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-repository: kumar-physics/kumar-physics.github.io
