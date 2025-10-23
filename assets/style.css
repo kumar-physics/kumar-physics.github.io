@@ -8,7 +8,7 @@ body {
 
 /* HEADER */
 .site-header {
-  background: linear-gradient(135deg, #002b5c, #0056a6);
+  background: linear-gradient(120deg, #002b5c, #0078a0, #00c2b5);
   color: #fff;
   padding: 1.5rem 0 0.5rem 0;
   text-align: center;
@@ -18,8 +18,8 @@ body {
 .site-title a {
   color: #fff;
   text-decoration: none;
-  font-weight: 700;
-  font-size: 1.8em;
+  font-weight: 500;
+  font-size: 1.3em;
 }
 
 .site-subtitle {
