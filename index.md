@@ -6,7 +6,7 @@ title: Home
 <div class="hero">
   <img src="{{ '/assets/profile.jpg' | relative_url }}" alt="Kumaran Baskaran photo">
   <h1>Kumaran Baskaran, Ph.D.</h1>
-  <p>Lead Analyst • Structural Biology • Data Science • FAIR Data Advocate</p>
+  <p> Computational Structural Biologist and Data Scientist</p>
 </div>
 
 Welcome! I’m **Kumaran Baskaran**, a computational structural biologist and data scientist working at the intersection of  
