@@ -3,10 +3,22 @@ layout: default
 title: About
 ---
 
-# About Me
+<div class="hero">
+  <img src="{{ '/assets/profile.jpg' | relative_url }}" alt="Kumaran Baskaran photo">
+  <h1>Kumaran Baskaran, Ph.D.</h1>
+  <p> Computational Structural Biologist and Data Scientist</p>
+</div>
 
-I'm **Kumaran Baskaran**, a data scientist and structural biologist focusing on integrating
-biomolecular NMR data with AI-driven models to improve chemical shift validation,
-metadata standardization, and FAIR-compliant data pipelines.
+Welcome! I’m **Kumaran Baskaran**, a computational structural biologist and data scientist working at the intersection of  
+**biomolecular NMR, FAIR data, and AI/ML**.
 
-This page summarizes my background and ongoing work with **BMRB** and **wwPDB**.
+This site highlights my:
+- 🧬 Research in biomolecular NMR and AI/ML for data validation  
+- 💻 Open-source software projects (e.g., *PyLACS*)  
+- 📚 Publications with BMRB & wwPDB  
+- 🌍 Efforts in FAIR and metadata-rich data science  
+
+---
+
+### Explore My Work
+list works here
