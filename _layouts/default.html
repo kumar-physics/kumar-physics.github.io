@@ -1,38 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+
+  {% seo %}
 </head>
 
 <body>
+  <!-- Header -->
   <header class="site-header">
     <div class="container">
-      <h1 class="site-title">
-        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      </h1>
+      <div class="topbar">
+        <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        <nav class="navbar">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/about' | relative_url }}">About</a>
+          <a href="{{ '/research' | relative_url }}">Research</a>
+          <a href="{{ '/projects' | relative_url }}">Projects</a>
+          <a href="{{ '/publications' | relative_url }}">Publications</a>
+          <a href="{{ '/contact' | relative_url }}">Contact</a>
+        </nav>
+      </div>
       <p class="site-subtitle">{{ site.description }}</p>
-      <nav class="navbar">
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/about' | relative_url }}">About</a>
-        <a href="{{ '/research' | relative_url }}">Research</a>
-        <a href="{{ '/projects' | relative_url }}">Projects</a>
-        <a href="{{ '/publications' | relative_url }}">Publications</a>
-        <a href="{{ '/contact' | relative_url }}">Contact</a>
-      </nav>
     </div>
   </header>
 
+  <!-- Main Content -->
   <main class="content container">
     {{ content }}
   </main>
 
+  <!-- Footer -->
   <footer class="footer">
-    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }} — Built with ❤️ using Jekyll & GitHub Pages</p>
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }} | Built with ❤️ using Jekyll and GitHub Pages</p>
   </footer>
 </body>
 </html>
