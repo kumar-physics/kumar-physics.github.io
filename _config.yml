@@ -1,3 +1,6 @@
 title: Kumaran Baskaran
 description: Research | Data Science | FAIR Data
 theme: jekyll-theme-cayman
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
