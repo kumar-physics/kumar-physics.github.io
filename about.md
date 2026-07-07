@@ -4,7 +4,7 @@ title: About
 ---
 
 <div class="hero">
-  <img src="{{ '/assets/profile.jprg' | relative_url }}" alt="Kumaran Baskaran photo">
+  <img src="{{ '/assets/profile2.jpg' | relative_url }}" alt="Kumaran Baskaran photo">
   <h1>Kumaran Baskaran, Ph.D.</h1>
   <p> Computational Structural Biologist and Data Scientist</p>
 </div>
