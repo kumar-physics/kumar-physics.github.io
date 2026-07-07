@@ -71,7 +71,7 @@ main.content {
 .hero img {
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 0;
   border: 4px solid #0056a6;
   margin-bottom: 1rem;
 }
